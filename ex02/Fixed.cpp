@@ -6,7 +6,7 @@
 /*   By: koseki.yusuke <koseki.yusuke@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 17:20:28 by koseki.yusu       #+#    #+#             */
-/*   Updated: 2024/10/13 19:51:17 by koseki.yusu      ###   ########.fr       */
+/*   Updated: 2024/10/26 21:12:37 by koseki.yusu      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -131,7 +131,6 @@ Fixed	Fixed::operator--()
 	return (*this);
 }
 
-// Overloaded post-increment Operators
 Fixed	Fixed::operator++(int)
 {
 	Fixed tmp = *this;
